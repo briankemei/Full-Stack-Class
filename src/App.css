@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  background: linear-gradient(to bottom, hsl(218, 84%, 26%) 50%, #0FFCBE 50%)  ;
+  min-height: 100vh;
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.App-sub-header{
+  font-size: large;
+  color: color-mix(in hsl shorter hue, color percentage, color percentage);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +32,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #9efb61;
 }
 
 @keyframes App-logo-spin {
