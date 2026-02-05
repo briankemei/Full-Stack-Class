@@ -1,4 +1,4 @@
-# Getting Started with Create Hello world App
+# Hello world App
 
 ## Available Scripts
 
